@@ -1,0 +1,267 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Krona+One);
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+
+body{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	font-family: 'Krona One', sans-serif;
+	color:#ffffff;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-left: 696px; 
+}
+h1.openingHeader{
+	padding-top: 381px;
+	margin-left: 0px;
+	padding-right: 15px;
+	letter-spacing: 1px;
+}
+
+h2{
+	font-family: 'Krona One', sans-serif;
+	font-size:38px;
+	text-align: center;
+}
+
+
+.container{
+	min-width:1080px ;
+	margin: 0 auto;
+}
+
+header{
+	background-image: url('../images/bgheader.jpg');  
+	width:100%;
+	padding:0px;
+	height:721px;
+	text-align: center;
+}
+
+
+nav{
+	width: 100%;
+	background-color: rgba(146,48,63,0.60);
+	float:left;
+	padding-bottom: 30px;
+	padding-right:147px;  
+}
+
+#logo{
+	background-image: url('../images/logo.png');
+	margin-left: 125px;
+	width:268px;
+	height:111px;
+	float: left;
+}
+
+ul#mainNav{
+	float: right;
+	font-size: 18px;
+	margin-top:40px ;
+}
+
+ul#mainNav li{
+	font-family: 'Krona One', sans-serif;
+	display: inline;
+	margin-left: 61px;
+	margin-top:59px;
+}
+
+ul#mainNav li a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+ul#mainNav li a:hover{
+	color:#5dcdb5;
+}
+
+.leftImage{
+	width:457px;
+	margin-left: 181px;
+	padding-top: 38px;
+	float: left;
+}
+
+.aboutTitle{
+	color:#5dcdb5 ;
+	margin-top: 100px;
+}
+
+section p{
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 18px;
+	color: #252525;
+	width: 656px;
+	margin-left: 100px;
+}
+
+.rightImage{
+	float: right;
+	width:394px;
+	height: 501px;
+	margin-right: 99px;
+	margin-left: 28px;
+	margin-bottom: 79px;
+}
+
+.quote{
+	font-family: 'Krona One', sans-serif;
+	font-size: 24px;
+	color: #252525;
+	width: 673px;
+	margin-left: 100px;
+	margin-bottom: 0px;
+}
+
+#name{
+	font-family: 'Krona One', sans-serif;
+	font-size: 18px;
+	color: #252525;
+	width: 673px;
+	margin-left: 100px;
+	margin-top: 14px;
+}
+
+aside{
+	background-image: url('../images/menubg.png');
+	width:100%;
+	height:471px;
+	margin-top:0px;
+	padding-bottom: 30px;
+	clear: both;
+}
+
+
+.menuTitle{
+	font-size:36px;
+	padding-left: 100px;
+}
+.menuTitle{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top:79px;
+	padding-bottom: 52px;
+	color:#f95971; 
+}
+
+.floatMenu{
+	margin: 0px;
+	float: left;
+}
+
+#mainsItems{
+	margin-left: 125px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+#sideItems{
+	margin-left: 159px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+#drinkItems{
+	margin-left: 182px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+ul#mainsItems{
+	font-family:'Duru Sans', sans-serif; 
+	font-size: 18px;
+	padding: 0px;
+}
+
+ul#mainsItems li{
+	list-style:none; 
+	margin-bottom: 17px; 
+}
+
+ul#sideItems{
+	font-family:'Duru Sans', sans-serif; 
+	font-size: 18px;
+	padding: 0px;
+}
+
+ul#sideItems li{
+	list-style:none;
+	margin-bottom: 19px; 
+}
+
+ul#drinkItems{
+	font-family:'Duru Sans', sans-serif; 
+	font-size: 18px;
+	padding: 0px;
+}
+
+ul#drinkItems li{
+	list-style: none;
+	margin-bottom: 19px;
+}
+.fakeH3{
+	font-family: 'Krona One', sans-serif;
+	font-size: 24px;
+	color: #fafafa;
+}
+
+aside section{
+	margin-bottom: 0px;
+}
+
+aside section p{
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 18px;
+	color: #242424;
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+
+footer{
+	margin: 0px;
+	padding:0px;
+}
+
+footer.container{
+	margin: 0px;
+	clear: both;
+	width: 100%;
+	height: 283px;
+	background-color: #252525;
+}
+
+footer h3{
+	font-family: 'Krona One', sans-serif;
+	font-size: 24px;
+	color: #fafafa;
+	margin-left: 125px;
+	padding-top: 51px;
+	margin-top: 0px;
+}
+
+footer p{
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 18px;
+	color: #fafafa;
+	margin-left:125px;
+	width: 160px;
+}
+
+#floatRight{
+	float: right;
+	/*text-align: right;*/
+	margin-right:68px; 
+	width:295px;
+	margin-top: 52px;
+}
